@@ -12,4 +12,5 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 ##  TECHNOLOGY USED
 *use different langauges  such as HTML,CSS,JAVASCRIPT
 *use BOOSTRAP
-*USE JQUERY
+*USE JQUERY 
+## LINK
