@@ -14,7 +14,9 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 *use BOOSTRAP
 *USE JQUERY 
 ## CONTACT INFORMATION 
-
+TEL:(250)785434295
+   :(250)726261174
+   email:abijuruelis@gmail.com
 ## LINK
 
 ## COPY RIGHT AND LICENCE INFORMATION 
