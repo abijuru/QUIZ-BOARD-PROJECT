@@ -14,9 +14,9 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 *use BOOSTRAP
 *USE JQUERY 
 ## BDD(BEHAVIOR DRIVE DEVELOPMENT)
-| Attempt | #1  | #2  |
+| behaviour |INPUT  | OUTPUT  |
 | :-----: | :-: | :-: |
-| Seconds | 301 | 283 |
+|  | 301 | 283 |
 
 ## LINK
 
