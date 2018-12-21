@@ -5,3 +5,4 @@ QUIZ-BOARD-PROJECT
 Elisabeth Abijuru
 ## PROJECT DESCRIPTION
 This is QUIZ BOARD PROJECT where we create a form  and user answer the question  that are in form and we provide score to the user ,user use  INPUT and we provide OUTPUT .
+## SETUP INSTRUCTION
