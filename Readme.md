@@ -16,3 +16,4 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 ## LINK
 
 ## COPY RIGHT AND LICENCE INFORMATION 
+This project is licensed under the MIT License - see the LICENSE.md file for details copyright@2018 by Elisabeth Abijuru . All right reserved
