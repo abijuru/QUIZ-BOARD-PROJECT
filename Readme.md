@@ -10,3 +10,6 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 2.WEB-BROWSER
 
 ##  TECHNOLOGY USED
+*use different langauges  such as HTML,CSS,JAVASCRIPT
+*use BOOSTRAP
+*USE JQUERY
