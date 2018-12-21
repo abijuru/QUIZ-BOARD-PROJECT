@@ -1,12 +1,11 @@
-function myQuiz(){
+$ (document).ready(function(){
+$(Question).click  (function(event))
 
-
-
-var a1=document.forms["mysuccess"]["answers1"].values;
-var a2=document.forms["mysuccess"]["answers2"].values;
-var a3=document.forms["mysuccess"]["answers3"].values;
-var a4=document.forms["mysuccess"]["answers4"].values;
-var a5=document.forms["mysuccess"]["answers5"].values;
+var a1=document.forms["mysuccess"]["answers1"].val;
+var a2=document.forms["mysuccess"]["answers2"].val;
+var a3=document.forms["mysuccess"]["answers3"].val;
+var a4=document.forms["mysuccess"]["answers4"].val;
+var a5=document.forms["mysuccess"]["answers5"].val;
 
 var marks=0;
 
@@ -31,7 +30,8 @@ if(a5=="toUppercasse")
    marks=marks+8;
 }
 alert("your score is:"+marks);
-};
+ 
+event.preventDefoult();
 
-
+});
 
