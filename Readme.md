@@ -4,3 +4,4 @@ QUIZ-BOARD-PROJECT
 ## AUTHOR
 ```
 Elisabeth Abijuru
+## PROJECT DESCRIPTION
