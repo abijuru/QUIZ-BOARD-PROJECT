@@ -1,61 +1,37 @@
-$(document).ready(function() {
-    $('.simple-quiz').simpleQuiz();
-  });
+function myQuiz(){
 
 
 
+var a1=document.forms["mysuccess"]["answers1"].values;
+var a2=document.forms["mysuccess"]["answers2"].values;
+var a3=document.forms["mysuccess"]["answers3"].values;
+var a4=document.forms["mysuccess"]["answers4"].values;
+var a5=document.forms["mysuccess"]["answers5"].values;
+
+var marks=0;
+
+if(a1=="EMASCIP")
+{
+   marks=marks+8;
+   }
+if(a2=="forEach")
+{
+   marks=marks+8;
+   }
+if(a3=="concat()")
+{
+   marks=marks+8;
+}
+if(a4=="toString")
+{
+   marks=marks+8;
+}
+if(a5=="toUppercasse")
+{
+   marks=marks+8;
+}
+alert("your score is:"+marks);
+}
 
 
 
-
-    var numElements = this.length;
-    return this.filter(callback).length == numElements;
-  };
-  
-  $.fn.simpleQuiz = function(options) {
-    if(!this.length) { return; };
-    
-    this.each(function() {
-      var form = $(this);
-      var submitButton = form.find(':submit');
-      var questions = form.find('.question');
-      var choices = form.find(':radio');
-  
-      var init = function() {
-        choices.on('change', answerChanged);
-        form.on('submit', answersSubmitted);
-  
-        answerChanged();
-      };
-  
-      var answersSubmitted = function(event) {
-        if(!hasPassed()) {
-          event.preventDefault();
-          alert('Please try again.');
-        }
-      };
-  
-      var score = function() {
-        return form.find(':checked[data-correct]').length;
-      };
-  
-      var hasPassed = function() {
-        return score() == questions.length;
-      };
-  
-      var hasCheckedElement = function() {
-        return $(this).has(':checked').length;
-      };
-  
-      var allQuestionsAnswered = function() {
-        return questions.every(hasCheckedElement);
-      };
-  
-      var answerChanged = function() {
-        if(allQuestionsAnswered()) {
-          submitButton.removeAttr('disabled');
-        } else {
-          submitButton.attr('disabled', 'disabled');
-        }
-      };
-  
