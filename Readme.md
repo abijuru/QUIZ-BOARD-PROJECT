@@ -8,3 +8,5 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 ## SETUP INSTRUCTION
 1. TEXT-EDIT
 2.WEB-BROWSER
+
+##  TECHNOLOGY USED
