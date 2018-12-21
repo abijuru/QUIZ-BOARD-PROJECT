@@ -14,3 +14,5 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 *use BOOSTRAP
 *USE JQUERY 
 ## LINK
+
+## COPY RIGHT AND LICENCE INFORMATION 
