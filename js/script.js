@@ -31,7 +31,7 @@ if(a5=="toUppercasse")
    marks=marks+8;
 }
 alert("your score is:"+marks);
-}
+};
 
 
 
