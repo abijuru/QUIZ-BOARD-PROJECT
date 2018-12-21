@@ -13,10 +13,7 @@ This is QUIZ BOARD PROJECT where we create a form  and user answer the question 
 *use different langauges  such as HTML,CSS,JAVASCRIPT
 *use BOOSTRAP
 *USE JQUERY 
-## BDD(BEHAVIOR DRIVE DEVELOPMENT)
-| behaviour |INPUT  | OUTPUT  |
-| :-----: | :-: | :-: |
-|  | 301 | 283 |
+## CONTACT INFORMATION 
 
 ## LINK
 
