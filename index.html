@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>simple-quiz</title> 
-    <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>     
-      
-
-    
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/quiz.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>        
+    <script src="js/script.js"></script> 
 </head>
 <body>
     <div class="container">
       
-        <div class="jumbotron">
+        <div class="jumbotron"     >
           <h2>INSTRUCTION OF QUIZ</h2>
           <ol>
             <li>Answer all question</li>
@@ -24,108 +21,108 @@
             <li>Time is:1H</li>
     <h1>QUIZ BOARD</h1>
     </div>
-       <div id=QUESTION> 
-        <form name="mysuccess" method="post" onsubmit ="return myQuiz()">
+       <div id="blanks">
+        <form >
             <h3>Question 1:what is the other name for JavaScript?</h3>           
             <label>
-              <input type="radio" name="answers1" value="ECMAScript">
+              <input type="radio" name="answers1" value="A">
               ECMAScript
-            </label>
+            </label><br>
             
             <label>
-              <input type="radio" name="answers1" value="Vue">
+              <input type="radio" name="answers1" value="B">
               Vue
-            </label>
+            </label><br>
       
             <label>
-              <input type="radio" name="answers1" value="I don't know" data-correct>
-              I don't know
-            </label>
+              <input type="radio" name="answers1" value="C">
+              None of the above
+            </label><br>
       
             <h3>Question2:Which built-in method calls a function for each element in the array?
 
                     :</h3>
             
             <label>
-              <input type="radio" name="answers2" value="while">
-              while
-            </label>
+              <input type="radio" name="answers2" value="c">
+              while 
+            </label><br>
             
             <label>
-              <input type="radio" name="answers2" value="loop()" data-correct>
-              loop()
-            </label>
+              <input type="radio" name="answers2" val="B" >
+              loop
+            </label><br>
       
             <label>
-              <input type="radio" name="answers2" value="forEach">
+              <input type="radio" name="answers2" value="A">
               forEach
-            </label>
+            </label><br>
             <h3>Question 3 :Which of the following function of String object combines the text of two strings and returns a new string?:</h3>
             
             <label>
-              <input type="radio" name="answers3" value="add()">
-              add() A
-            </label>
+              <input type="radio" name="answers3" val="B">
+              add
+            </label><br>
             
             <label>
-              <input type="radio" name="answers3" value="concat()" data-correct>
-              concat() B
-            </label>
+              <input type="radio" name="answers3" value="A" >
+              concat
+            </label><br>
       
             <label>
-              <input type="radio" name="answers3" value="append()">
-              append() C
+              <input type="radio" name="answers3" value="append">
+              append
             </label>
             <h3>Question 4:Which of the following function of Array object sorts the elements of an array?:</h3>
             
             <label>
-              <input type="radio" name="answers4" value="toSource">
-              toSource A
-            </label>
+              <input type="radio" name="answers4" value="A">
+              toSource 
+            </label><br>
             
             <label>
-              <input type="radio" name="answers4" value="toString" data-correct>
-              tostring B
-            </label>
+              <input type="radio" name="answers4" value="B" >
+              tostring 
+            </label><br>
       
             <label>
-              <input type="radio" name="answers4" value="unshift">
-              unshift C
-            </label>
+              <input type="radio" name="answers4" value="C">
+              unshift 
+            </label><br>
             <h3>Question 5:Which built-in method returns the calling string value converted to upper case?:</h3>
             
             <label>
-              <input type="radio" name="answers5" value="toUppercase">
-              toUppercase A
-            </label>
+              <input type="radio" name="answers5" value="A">
+              toUppercase 
+            </label><br>
             
             <label>
-              <input type="radio" name="answers5" value="toUpper" data-correct>
-              toUpper B
-            </label>
+              <input type="radio" name="answers5" value="B" data-correct>
+              toUpper 
+            </label><br>
       
             <label>
-              <input type="radio" name="answers5" value="No of above">
-              No of above C
+              <input type="radio" name="answers5" value="C">
+              None of the above 
             </label><br>
             
               <label>  <br>
-            <input type="submit"  name="submit"  value="submit">
+            <input type="submit"  name="submit"  value="submit" class="btn btn-primary">
               </label>    </br>
        </label>       
      </form>
+    </div>
+  </div>
+    
+    <div class="well"   center>
+<h1>GOOD LUCK !!!!!!!!!!!!</h3> 
+  and 
+  <h3>HAPPY NEW YEAR<h3>
      </div>
-    </div>
+
+
+      
     
     
-
-
-
-
-
-    <div class=footer>
-    <p>GOOD LUCK !!!!!!!!!!</p>
-    </div>
-    <footer></footer>  
-    </body>
+</body>
 </html>

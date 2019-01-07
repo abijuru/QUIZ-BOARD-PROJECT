@@ -1,37 +1,20 @@
-$ (document).ready(function(){
-$(Question).click  (function(event))
 
-var a1=document.forms["mysuccess"]["answers1"].val;
-var a2=document.forms["mysuccess"]["answers2"].val;
-var a3=document.forms["mysuccess"]["answers3"].val;
-var a4=document.forms["mysuccess"]["answers4"].val;
-var a5=document.forms["mysuccess"]["answers5"].val;
-
-var marks=0;
-
-if(a1=="EMASCIP")
-{
-   marks=marks+8;
-   }
-if(a2=="forEach")
-{
-   marks=marks+8;
-   }
-if(a3=="concat()")
-{
-   marks=marks+8;
-}
-if(a4=="toString")
-{
-   marks=marks+8;
-}
-if(a5=="toUppercasse")
-{
-   marks=marks+8;
-}
-alert("your score is:"+marks);
- 
-event.preventDefoult();
-
-});
+$(document).ready(function (){
+   $('#blanks form').submit(function(event){
+     var marks=0;
+       var blanks=["answers1","answers2","answers3","answers4","answers5"]
+        blanks.forEach(function(blank) {
+           var userInput = $("input:radio[name=" + blank + "]:checked" ).val();
+               if(userInput=="A"){
+                   marks= marks+8;
+                   };
+                   
+             /* if(userInput=="forEach"){
+                  marks= marks + 8;
+                   } ; */           
+                   });                    
+                   alert("total: "+ marks + "/40" );                
+                   event.preventDefault();
+            });
+            });
 
