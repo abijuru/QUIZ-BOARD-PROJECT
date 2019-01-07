@@ -9,9 +9,8 @@ $(document).ready(function (){
                    marks= marks+8;
                    };
                    
-             /* if(userInput=="forEach"){
-                  marks= marks + 8;
-                   } ; */           
+            
+                  
                    });                    
                    alert("total: "+ marks + "/40" );                
                    event.preventDefault();
